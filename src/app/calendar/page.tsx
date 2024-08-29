@@ -1,7 +1,7 @@
 import React from 'react';
 import CalendarPage from '@/components/Calendar';
 
-const TeamPage = () => {
+const CalenderPage = () => {
     return (
         <CalendarPage/>
     );

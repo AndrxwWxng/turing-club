@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-12 px-4"
+      className="bg-gradient-to-r from-blue-600 via-purple-500 to-purple-600 text-white py-12 px-4"
     >
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold mb-2">{title}</h1>
