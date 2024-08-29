@@ -7,13 +7,12 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import { Avatar, AvatarImage } from "@radix-ui/react-avatar";
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { Home, Info, Users, Calendar } from "lucide-react";
+import NavItem from "./NavItem";
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-pink-300 via-purple-200 to-blue-300 py-2 px-4 z-50 shadow-lg fixed top-4 left-4 right-4 rounded-2xl">
+    <div className="bg-black py-2 px-4 z-50 shadow-lg fixed top-4 left-4 right-4 rounded-2xl">
       <div className="flex items-center justify-between max-w-full mx-auto">
         <Link href="/" passHref legacyBehavior>
           <a className="flex items-center">
@@ -29,48 +28,17 @@ const Navbar = () => {
           </a>
         </Link>
         <NavigationMenu className="ml-auto">
-        {/* <div className="flex justify-end ml-auto"> */}
-        <NavigationMenuList className="flex space-x-6 items-center">
-            <NavigationMenuItem>
-              <Link href="/" passHref legacyBehavior>
-                <NavigationMenuLink className="text-md font-semibold text-white hover:text-blue-200 transition duration-300">
-                  Home
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="/about" passHref legacyBehavior>
-                <NavigationMenuLink className="text-md font-semibold text-white hover:text-blue-200 transition duration-300">
-                  About
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="/team" passHref legacyBehavior>
-                <NavigationMenuLink className="text-md font-semibold text-white hover:text-blue-200 transition duration-300">
-                  Team
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="/calendar" passHref legacyBehavior>
-                <NavigationMenuLink className="text-md font-semibold text-white hover:text-blue-200 transition duration-300">
-                  Calendar
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            {/* <NavigationMenuItem>
-              <Link href="/contact" passHref legacyBehavior>
-                <NavigationMenuLink className="text-md font-semibold text-white hover:text-blue-200 transition duration-300">
-                  Contact
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem> */}
+          <NavigationMenuList className="flex space-x-6 items-center">
+            <NavItem href="/" icon={<Home size={18} />} label="Home" />
+            <NavItem href="/about" icon={<Info size={18} />} label="About" />
+            <NavItem href="/team" icon={<Users size={18} />} label="Team" />
+            <NavItem href="/calendar" icon={<Calendar size={18} />} label="Calendar" />
           </NavigationMenuList>
         </NavigationMenu>
       </div>
     </div>
   );
 };
+
 
 export default Navbar;
