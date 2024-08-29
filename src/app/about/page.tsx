@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const AboutPage = () => {
   return (
@@ -40,6 +41,7 @@ const AboutPage = () => {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
