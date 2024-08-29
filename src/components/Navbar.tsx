@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-300 via-blue-250 via-blue-200 via-blue-250 to-blue-300 py-2 px-4 z-50 shadow-lg fixed top-4 left-4 right-4 rounded-2xl">
+    <div className="bg-gradient-to-r from-pink-300 via-purple-200 to-blue-300 py-2 px-4 z-50 shadow-lg fixed top-4 left-4 right-4 rounded-2xl">
       <div className="flex items-center justify-between max-w-full mx-auto">
         <Link href="/" passHref legacyBehavior>
           <a className="flex items-center">

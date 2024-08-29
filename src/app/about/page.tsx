@@ -14,7 +14,8 @@ import {
 
 const aboutPage = () => {
     return (
-        <Card className='relative pt-6 max-w-3xl mx-auto p-6 shadow-lg rounded-lg bg-white'>
+        <div className="pt-20">
+        <Card className='relative pt-10 max-w-3xl mx-auto p-6 shadow-lg rounded-lg bg-white'>
             <CardHeader>
                 <center><CardTitle>About Turing Club</CardTitle></center>
                 <CardDescription></CardDescription>
@@ -29,10 +30,9 @@ const aboutPage = () => {
                 <p></p>
             </CardFooter>
         </Card>
+        </div>
 
 
-
-        
         // <div className="py-2 px-4" >
         // <style>
         // </style>
