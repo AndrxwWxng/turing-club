@@ -6,3 +6,5 @@ const TeamPage = () => {
         <Team/>
     );
 };
+
+// return default TeamPage;
