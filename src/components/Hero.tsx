@@ -14,7 +14,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="relative z-10 text-center text-white"
+        className="absolute z-10 text-center text-white"
       >
         <h1 className="text-6xl font-bold mb-4">Turing Club</h1>
         <p className="text-2xl mb-8">Coding for the Next Gen</p>
