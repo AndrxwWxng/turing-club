@@ -7,7 +7,9 @@ const TeamPage = () => {
     return (
         <>
         <Header title="Our Team" subtitle="Meet the people behind Turing Club" />
+        <div className="py-12">
         <Team/>
+        </div>
         <Footer />
         </>
     );

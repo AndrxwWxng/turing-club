@@ -12,8 +12,8 @@ const AboutPage = () => {
   return (
     <div>
       <Header title="About Us" subtitle="Learn more about us" />
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+      <div className="container mx-auto px-4 py-12">
+        <div className="flex flex-col md:flex-row justify-between gap-8 mb-12">
           <Card className="relative max-w-xl flex-1 p-6 shadow-lg rounded-lg bg-white">
             <CardHeader>
               <CardTitle className="text-center">About Turing Club</CardTitle>
