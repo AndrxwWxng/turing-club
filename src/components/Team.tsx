@@ -24,7 +24,7 @@ const Team = () => {
               transition={{ delay: index * 0.1 }}
             >
               <Image
-                src={`/team/${member.name.toLowerCase().replace(' ', '-')}.jpg`}
+                src={`/team/${member.name.toLowerCase().replace(' ', '-')}.svg`}
                 alt={member.name}
                 width={150}
                 height={150}
