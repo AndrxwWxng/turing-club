@@ -33,35 +33,35 @@ const Navbar = () => {
           <NavigationMenuList className="flex space-x-10">
             <NavigationMenuItem>
               <Link href="/" passHref legacyBehavior>
-                <NavigationMenuLink className="text-white hover:text-blue-400 transition duration-300">
+                <NavigationMenuLink className="text-lg font-medium text-white hover:text-blue-400 transition duration-300">
                   Home
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/about" passHref legacyBehavior>
-                <NavigationMenuLink className="text-white hover:text-blue-400 transition duration-300">
+              <NavigationMenuLink className="text-lg font-medium text-white hover:text-blue-400 transition duration-300">
                   About
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/team" passHref legacyBehavior>
-                <NavigationMenuLink className="text-white hover:text-blue-400 transition duration-300">
+              <NavigationMenuLink className="text-lg font-medium text-white hover:text-blue-400 transition duration-300">
                   Team
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/calendar" passHref legacyBehavior>
-                <NavigationMenuLink className="text-white hover:text-blue-400 transition duration-300">
+              <NavigationMenuLink className="text-lg font-medium text-white hover:text-blue-400 transition duration-300">
                   Calendar
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="/contact" passHref legacyBehavior>
-                <NavigationMenuLink className="text-white hover:text-blue-400 transition duration-300">
+              <NavigationMenuLink className="text-lg font-medium text-white hover:text-blue-400 transition duration-300">
                   Contact
                 </NavigationMenuLink>
               </Link>
