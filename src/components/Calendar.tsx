@@ -18,9 +18,9 @@ const events: Event[] = [
     description: "Join us for the first meeting of the semester! We'll discuss upcoming projects and events."
   },
   {
-    date: new Date(2024, 7, 29),
-    title: "Test",
-    description: "Test"
+    date: new Date(2024, 8, 11),
+    title: "Second Club Meeting",
+    description: "Our second meeting of the semester. Meet with us as we continue to prepare to begin our lessons. "
   },
   //add more events here 
   //when you add more events, make sure to make the month 1 less than the actually month (ex. august is 7)
