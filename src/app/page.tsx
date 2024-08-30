@@ -24,7 +24,7 @@ const HomePage = () => {
         <Hero />
       </div>
       <center>
-      <div className="bg-black py-3 md:flex-row justify-between gap-8">
+      <div className="bg-white py-3 md:flex-row justify-between gap-8">
           <Card className="relative max-w-xl flex-1 p-6 shadow-lg rounded-lg bg-indigo-600 text-white width-50">
             <div className="bg-indigo-900 rounded-lg">
             <CardHeader>
