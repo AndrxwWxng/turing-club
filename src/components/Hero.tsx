@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import CodingAnimation from './CodingAnimation';
 
-const Hero = () => {
+
+const Hero = ( ) => {
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-900 to-purple-800"></div>
@@ -27,6 +28,7 @@ const Hero = () => {
           Learn More
         </motion.a>
       </motion.div>
+
     </div>
   );
 };
