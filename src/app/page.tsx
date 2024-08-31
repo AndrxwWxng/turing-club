@@ -34,8 +34,8 @@ const HomePage = () => {
           </Card>
       </div>
       </center>
-      <center>
-      <div className="bg-white py-3 md:flex-row justify-between gap-8 width-75">
+      <div className="flex container mx-auto px-4 py-8">
+      <div className="bg-white py-3 px-5 md:flex-row justify-between gap-8 width-75">
           <Card className="relative max-w-xl flex-1 p-6 shadow-lg rounded-lg bg-indigo-600 text-white width-50">
             <div className="bg-indigo-900 rounded-lg">
             <CardHeader>
@@ -53,7 +53,62 @@ const HomePage = () => {
             </div>
           </Card>
       </div>
-      </center>
+      <div className="bg-white py-3 px-5 md:flex-row justify-between gap-8 width-75">
+          <Card className="relative max-w-xl flex-1 p-6 shadow-lg rounded-lg bg-indigo-600 text-white width-50">
+            <div className="bg-indigo-900 rounded-lg">
+            <CardHeader>
+              <CardTitle className="text-center">Presentation Name</CardTitle>
+            </CardHeader>
+            </div>
+            <div className="pt-4">
+            <CardContent>
+              <p className="text-lg">
+                Location: n/a <br></br>
+                Topic: n/a <br></br>
+                Speaker: n/a <br></br>
+              </p>
+            </CardContent>
+            </div>
+          </Card>
+      </div>
+      <div className="bg-white py-3 px-5 md:flex-row justify-between gap-8 width-75">
+          <Card className="relative max-w-xl flex-1 p-6 shadow-lg rounded-lg bg-indigo-600 text-white width-50">
+            <div className="bg-indigo-900 rounded-lg">
+            <CardHeader>
+              <CardTitle className="text-center">Presentation Name</CardTitle>
+            </CardHeader>
+            </div>
+            <div className="pt-4">
+            <CardContent>
+              <p className="text-lg">
+                Location: n/a <br></br>
+                Topic: n/a <br></br>
+                Speaker: n/a <br></br>
+              </p>
+            </CardContent>
+            </div>
+          </Card>
+      </div>
+      <div className="bg-white py-3 px-5 md:flex-row justify-between gap-8 width-75">
+          <Card className="relative max-w-xl flex-1 p-6 shadow-lg rounded-lg bg-indigo-600 text-white width-50">
+            <div className="bg-indigo-900 rounded-lg">
+            <CardHeader>
+              <CardTitle className="text-center">Presentation Name</CardTitle>
+            </CardHeader>
+            </div>
+            <div className="pt-4">
+            <CardContent>
+              <p className="text-lg">
+                Location: n/a <br></br>
+                Topic: n/a <br></br>
+                Speaker: n/a <br></br>
+              </p>
+            </CardContent>
+            </div>
+          </Card>
+      </div>
+      </div>
+
     </>
   );
 };
