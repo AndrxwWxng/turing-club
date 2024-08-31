@@ -25,7 +25,8 @@ const UpcomingPresentations = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <span>// Upcoming Presentations</span>
+        {/* Upcoming Presentations */}
+        <span>{"// Upcoming Presentations"}</span>
       </motion.h2>
       <motion.div
         className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
@@ -49,13 +50,13 @@ const UpcomingPresentations = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-lg leading-relaxed">
-                    <span className="block font-semibold text-purple-500">// Location:</span> {presentation.location}
+                    <span className="block font-semibold text-purple-500">{"// Location:"}</span> {presentation.location}
                   </p>
                   <p className="text-lg leading-relaxed mt-2">
-                    <span className="block font-semibold text-purple-500">// Topic:</span> {presentation.topic}
+                    <span className="block font-semibold text-purple-500">{"// Topic:"}</span> {presentation.topic}
                   </p>
                   <p className="text-lg leading-relaxed mt-2">
-                    <span className="block font-semibold text-purple-500">// Speaker:</span> {presentation.speaker}
+                    <span className="block font-semibold text-purple-500">{"// Speaker:"}</span> {presentation.speaker}
                   </p>
                 </CardContent>
               </div>
