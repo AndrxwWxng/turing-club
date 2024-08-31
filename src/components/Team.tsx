@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 
 const teamMembers = [
-  { name: 'Andrew Wang', role: 'President', imageName: 'talsnkdsf.jpg' },
+  { name: 'Andrew Wang', role: 'President', imageName: 'andrew-wang.jpg' },
   { name: 'Shushant Rana', role: 'Vice President', imageName: 'shushant-rana.jpg' },
   { name: 'Jeremiah Chen', role: 'Secretary', imageName: 'jeremiah-chen.jpg' },
   { name: 'Yihang Yu', role: 'Head of Marketing', imageName: 'yihang-yu2.jpg' },
