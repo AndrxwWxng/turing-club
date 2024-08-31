@@ -25,7 +25,7 @@ const UpcomingPresentations = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        // Upcoming Presentations
+        <span>// Upcoming Presentations</span>
       </motion.h2>
       <motion.div
         className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
